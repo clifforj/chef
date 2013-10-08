@@ -9,7 +9,7 @@ Chef.js is a simple bookmarklet provider. It takes the following three things an
 
 Usage
 ---
-The following code needs to be added as a bookmark/link on your browser/page with `http://yourdomain/` replaced with wherever your are hosting Chef.js. Once this is done, clicking the bookmark/link will cause Chef.js to run and your bookmarklet to load.
+Host a copy of Chef.js customised for your bookmarklet. The following code needs to be added as a bookmark/link on your browser/page with `http://yourdomain/` replaced with wherever your are hosting Chef.js. Once this is done, clicking the bookmark/link will cause Chef.js to run and your bookmarklet to load.
 
 ```javascript
 javascript:(function(){var head=document.getElementsByTagName('head')[0],script=document.createElement('script');script.type='text/javascript';script.src='http://yourdomain/chef.js?' + Math.floor(Math.random()*99999);head.appendChild(script);})(); void 0
