@@ -1,0 +1,38 @@
+* {
+    cursor: crosshair !important;
+}
+
+.highlight-element {
+    position: relative;
+
+    -moz-box-shadow: 2px 2px #18B4E1 inset, -2px -2px #18B4E1 inset;
+    -webkit-box-shadow:  2px 2px #18B4E1 inset, -2px -2px #18B4E1 inset;
+    box-shadow:  2px 2px #18B4E1 inset, -2px -2px #18B4E1 inset;
+}
+
+#highlight-legend {
+    position: absolute;
+
+    bottom: 0px;
+    left: 0px;
+    float: left;
+
+    padding: 3px;
+    margin: 0;
+
+    background-color: #ededed;
+
+    line-height: 9px;
+
+    font-family: arial, helvetica, sans-serif;
+    font-size: 9px;
+    font-weight: normal;
+    color: #18B4E1;
+
+    text-align: center;
+    text-indent: 0;
+    text-decoration: none;
+
+    border: 1px solid #18B4E1;
+}
+

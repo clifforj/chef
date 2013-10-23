@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chef.js Examples</title>
+    <style type="text/css">
+        body {
+            width: 960px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0 auto;
+        }
+
+        .bookmarklets {
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+<p>This page includes no other source files - clicking on the link below will load the named bookmarklet onto the page</p>
+<p class="bookmarklets">
+    <a href="javascript:(function(){var head=document.getElementsByTagName('head')[0],script=document.createElement('script');script.type='text/javascript';script.src='elementHighlight/chef.js?' + Math.floor(Math.random()*99999);head.appendChild(script);})(); void 0">Element Highlighter</a>
+    - Once loaded, this enables you to hover over elements on the page and see their tag name
+</p>
+<ul>
+    <li>Lorem</li>
+    <li>Ipsum</li>
+    <li>Dolor</li>
+    <li>Sit</li>
+    <li>Amet</li>
+</ul>
+<p>Consectetur <strong>adipisicing</strong> elit. Aut expedita magnam, nam nulla perspiciatis <code>quasi</code> voluptate. Aspernatur autem, blanditiis commodi eligendi, et, fuga magnam odit officia quaerat quas soluta velit.</p>
+</body>
+</html>
