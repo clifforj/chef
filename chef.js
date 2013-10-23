@@ -47,19 +47,24 @@ function serve(ingredients)
         // Attach the stylesheet to the page
         $('<link>').attr(
             {
-                href: ingredients.garnish,
+                href: ingredients.garnish + getRandomParam(),
                 rel: 'stylesheet'
             }
         ).appendTo('head');
 
         // Attach the payload to the page
         var main = document.createElement('script');
-        main.src =  ingredients.main;
+        main.src =  ingredients.main + getRandomParam();
         main.type = 'text/javascript';
         document.body.appendChild(main);
     };
 
     document.body.appendChild(base);
+}
+
+function getRandomParam()
+{
+    return '?' + Math.floor(Math.random()*99999);
 }
 
 //                 _ _ _
