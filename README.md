@@ -1,7 +1,7 @@
 Chef.js
 ====
 
-Chef.js is a simple bookmarklet provider. It takes the following three things and serves them up to the active window.
+Chef.js is a simple bookmarklet provider. It takes the following three things and serves them up to the active window. (note: URLs used here must be absolute. After a bookmarklet is loaded relative URLs will be relative to the host page)
 
 - Garnish - The additional CSS to be loaded for your bookmarklet
 - Main - The JavaScript for your bookmarklet
